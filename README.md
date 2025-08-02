@@ -67,4 +67,12 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Documentation
+
+Project analysis for the upcoming calendar feature is available in
+[`docs/calendar-analysis.md`](docs/calendar-analysis.md).
+
+An initial calendar skeleton is available at the `/calendario` route, providing basic view switching and date navigation.
+
 # teste2

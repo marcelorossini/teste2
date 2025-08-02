@@ -17,11 +17,11 @@ export default function Layout() {
       </Box>
       <Flex as="nav" p={2} bg="gray.100" justify="space-around">
         <IconButton
-          aria-label="Consultas"
+          aria-label="Calendário"
           icon={<CalendarIcon />}
           as={Link}
-          to="/consultas"
-          variant={location.pathname.startsWith('/consultas') ? 'solid' : 'ghost'}
+          to="/calendario"
+          variant={location.pathname.startsWith('/calendario') ? 'solid' : 'ghost'}
         />
         <IconButton aria-label="Agendar" icon={<AddIcon />} as={Link} to="/consultas/nova" variant={location.pathname === '/consultas/nova' ? 'solid' : 'ghost'} />
         <IconButton aria-label="Perfil" icon={<InfoIcon />} as={Link} to="/perfil" variant={location.pathname === '/perfil' ? 'solid' : 'ghost'} />

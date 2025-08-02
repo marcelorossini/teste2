@@ -9,6 +9,7 @@ const Nova = lazy(() => import('./pages/Consultas/Nova'))
 const Detalhes = lazy(() => import('./pages/Consultas/[id]'))
 const Perfil = lazy(() => import('./pages/Perfil'))
 const Configuracoes = lazy(() => import('./pages/Configuracoes'))
+const Calendario = lazy(() => import('./pages/Calendario'))
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: 'consultas/:id', element: <Detalhes /> },
       { path: 'perfil', element: <Perfil /> },
       { path: 'configuracoes', element: <Configuracoes /> },
+      { path: 'calendario', element: <Calendario /> },
     ],
   },
 ])
